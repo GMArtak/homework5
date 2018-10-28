@@ -139,19 +139,15 @@ const update = function() {
 
 };
 
-
 const loop = function() {
 
-
     draw();
-
 
     update();
 
     if(!endgame){
         requestAnimationFrame(loop);    
     }
-    
-};
+    };
 
 loop();
